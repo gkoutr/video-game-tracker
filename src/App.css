@@ -1,0 +1,12 @@
+.header {
+  text-align: center;
+}
+
+.main-container {
+  max-width: 800px;
+}
+
+h2 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: center;
+}

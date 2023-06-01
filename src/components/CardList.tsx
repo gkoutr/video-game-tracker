@@ -1,23 +1,22 @@
-import React from 'react'
-import GameCard from './GameCard'
-import { Row } from 'react-bootstrap'
+import React from "react";
+import GameCard from "./GameCard";
+import { Row } from "react-bootstrap";
 
 interface Props {
-    games: Game[]
+  games: Game[];
 }
 
-const CardList = ({games}: Props) => {
+const CardList = ({ games }: Props) => {
   return (
     <>
-    <h1>Game List</h1>
-    <Row xs={1} md={3} className='g-4'>
+      <h2>My Games</h2>
+      <Row xs={1} md={3} className="g-4">
         {games.map((game, index) => (
-            <GameCard key={index} game={game} />
+          <GameCard key={index} game={game} />
         ))}
-    </Row>
-   
+      </Row>
     </>
-  )
-}
+  );
+};
 
-export default CardList
+export default CardList;
