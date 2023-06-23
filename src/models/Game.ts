@@ -1,4 +1,5 @@
 interface Game {
-    title: string;
-    platform: string;
+  id: number;
+  title: string;
+  platform: string;
 }
